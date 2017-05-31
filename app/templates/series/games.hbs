@@ -1,0 +1,15 @@
+<table class="table table-bordered table-striped">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>E-mail</th>
+    </tr>
+  </thead>
+  <tbody>
+  {{#each model as |games|}}
+    <tr>
+      <th>{{games.id}}</th>
+    </tr>
+  {{/each}}
+  </tbody>
+</table>
