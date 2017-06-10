@@ -1,0 +1,6 @@
+{
+  "name": "portfolio-app",
+  "dependencies": {
+    "video.js": "~5.12"
+  }
+}
