@@ -1,6 +1,7 @@
 {
   "name": "portfolio-app",
   "dependencies": {
-    "video.js": "~5.12"
+    "video.js": "~5.12",
+    "plyr": "^2.0.13"
   }
 }
