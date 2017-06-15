@@ -1,4 +1,4 @@
- {{!--<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+{{!--<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -14,7 +14,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">About</a>
+                        {{#link-to 'index'}}<a href="">Home</a>{{/link-to}}
                     </li>
                     <li>
                         <a href="#">Services</a>
@@ -30,24 +30,24 @@
     </nav>--}}
 
     <!-- Page Content -->
-    <div class="container">
+    
 
         <!-- Jumbotron Header -->
-        <header class="jumbotron hero-spacer">
-            <h1>A Warm Welcome!</h1>
-            <p> .</p>
-            <p><a class="btn btn-primary btn-large"></a>
-            </p>
+        <header class="jumbotron jumbo">
+            <h1>My Mission</h1>
+            <p> I would best describe myself as a  creative, engaging, full stack developer with a passion for front-end development and UI Design. Specializes in customer satisfaction through teamwork and maintains a commitment to exceed expectations. Actively pursuing opportunities to provide programming skills, leadership ability, and enthusiasm to a fast-paced environment as a Full Stack developer.</p>
+            {{!--<p><a class="btn btn-primary btn-large"></a>
+            </p>--}}
         </header>
 
         <hr>
 
         <!-- Title -->
-        <div class="row">
+        {{!--<div class="row">
             <div class="col-lg-12">
                 <h3>Latest Features</h3>
             </div>
-        </div>
+        </div>--}}
         <!-- /.row -->
 
         <!-- Page Features -->
@@ -58,11 +58,11 @@
                     <img src="http://i68.tinypic.com/347ch9w.png" alt="">
                     <div class="caption">
                       <img src="http://i63.tinypic.com/a3eglf.png" alt="">
-                        <h3>Feature Label</h3>
+                        {{!--<h3>Feature Label</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <p>
+                        <p>--}}
                             {{!--<a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>--}}
-                        </p>
+                        {{!--</p>--}}
                     </div>
                 </div>
             </div>
@@ -78,9 +78,9 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </div>--}}
 
-            <div class="col-md-3 col-sm-6 hero-feature">
+            {{!--<div class="col-md-3 col-sm-6 hero-feature">
                 <div class="thumbnail">
                     <img src="http://placehold.it/800x500" alt="">
                     <div class="caption">
@@ -114,11 +114,13 @@
         <!-- Footer -->
         <footer>
             <div class="row">
+              
+
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <p>Copyright &copy; Marquis Parks 2017</p>
                 </div>
             </div>
         </footer>
 
-    </div>
+    
     <!-- /.container -->

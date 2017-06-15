@@ -1,0 +1,27 @@
+<h2>Add a new series</h2>
+
+<div class="form-horizontal">
+  <div class="form-group">
+    <label class="col-sm-2 control-label">title</label>
+    <div class="col-sm-10">
+      {{input type="text" value=model.title class="form-control" placeholder="The name of the series"}}
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="col-sm-2 control-label">game</label>
+    <div class="col-sm-10">
+      {{input type="text" value=model.WestScore class="form-control" placeholder="The score of the game"}}
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="col-sm-2 control-label">WestScore</label>
+    <div class="col-sm-10">
+      {{input type="text" value=model.Westscore class="form-control" placeholder="The westScore of the game"}}
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default" {{action 'saveGame' model}}>Add games to the list</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+<h2>List</h2>
+<div class="row">
+  {{#each model as |game|}}
+    <div class="col-md-4">
+      <div class="panel panel-default library-item">
+        <div class="panel-heading">
+          <h3 class="panel-title">{{game.title}}</h3>
+        </div>
+        <div class="panel-body">
+          <p>Address: {{game.title}}</p>
+          <p>Phone: {{game.title}}</p>
+        </div>
+        <div class="panel-footer text-right">
+          {{#link-to 'games.edit' game.id class='btn btn-success btn-xs'}}Edit{{/link-to}}
+          <button class="btn btn-danger btn-xs" {{action 'deleteGame' game}}>Delete</button>
+        </div>
+      </div>
+    </div>
+  {{/each}}
+</div>
