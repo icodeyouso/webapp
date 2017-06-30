@@ -6,7 +6,6 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-
   this.route('about');
   this.route('contact');
 
@@ -17,7 +16,11 @@ Router.map(function() {
 
   this.route('series', function() {
     this.route('new');
-    this.route('edit', { path: '/:game_id/edit' });
+    this.route('edit', { path: '/:game_title/edit' });
+  });
+
+  this.route('games', function() {
+    this.route('edit');
   });
 });
 

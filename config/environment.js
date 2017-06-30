@@ -4,7 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'portfolio-app',
     environment: environment,
-    rootURL: '/',
+    baseUrl: '/webapp/dist',
     locationType: 'auto',
    
     firebase: {
@@ -60,7 +60,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-
+     ENV.baseUrl = '/dist';
   }
 
   return ENV;
